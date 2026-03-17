@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acolher Instituto H. Dobal</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts: Poppins traz um ar mais redondo, amigável e moderno, combinando com a logo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand text-decoration-none" href="#">
+                <!-- Logo construída com as cores exatas do PDF -->
+                <div class="logo-text">
+                    <span style="color:var(--c-blue-dark)">A</span><span style="color:var(--c-blue-light)">c</span><span style="color:var(--c-coral)">o</span><span style="color:var(--c-blue-dark)">l</span><span style="color:var(--c-yellow)">h</span><span style="color:var(--c-blue-dark)">er</span>
+                </div>
+                <div class="logo-sub">Instituto H. Dobal</div>
+            </a>
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fas fa-bars text-blue-dark fs-2"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center gap-2">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quemsomos.html">Quem Somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Galerias </a></li>
+                    <li class="nav-item"><a class="nav-link" href="faleconosco.html">Fale Conosco </a></li>
+                    <li class="nav-item ms-lg-3"><a href="fazerparte.html" class="btn btn-custom-coral px-4 py-2 mt-3 mt-lg-0" style="box-shadow: 0 0 0 3px rgba(239, 71, 91, 0.3);">Fazer Parte</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0 pe-lg-5">
+                    <span class="about-badge mb-3">Bem-vindo ao Instituto Acolher</span>
+                    <h1 class="hero-title">Profissional, faça parte da nossa corrente do bem</h1>
+                    <p class="mb-5 fs-5 text-muted">Junte-se a uma equipe focada em impacto positivo, excelência médica e gestão humana. Juntos, fazemos a diferença!</p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#" class="btn btn-custom-coral">Quero Fazer Parte</a>
+                        <a href="#servicos" class="btn btn-outline-blue">Nossos Serviços</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 position-relative">
+                    <div class="hero-decoration"></div>
+                    <!-- Formato orgânico em vez de arco engessado -->
+                    <div class="organic-shape">
+                        <img src="images/image1.jpeg" alt="Profissionais de Saúde Sorrindo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre / DNA Acolher -->
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <!-- Coluna de Texto Principal -->
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <h2 class="mb-4 fs-2">Transformando a gestão de saúde pública e privada</h2>
+                    <p class="text-muted mb-4 fs-5">O <strong>Instituto Acolher H. Dobal</strong> é uma entidade sem fins lucrativos que promove ações assistenciais e sociais, gerando saúde, cidadania e qualidade de vida para a comunidade.</p>
+                    <p class="text-muted mb-5">Nosso objetivo é desenvolver gestão, qualificação e consultoria com tecnologia avançada, garantindo máxima eficiência nos serviços prestados.</p>
+                    
+                    <h4 class="fs-5 mb-3 text-blue-dark">Nossos Valores</h4>
+                    <div class="tags-container">
+                        <span class="value-tag">Ética</span>
+                        <span class="value-tag">Sustentabilidade</span>
+                        <span class="value-tag">Direitos Humanos</span>
+                        <span class="value-tag">Solidariedade</span>
+                        <span class="value-tag">Trabalho em Equipe</span>
+                        <span class="value-tag">Inovação</span>
+                        <span class="value-tag">Equidade Social</span>
+                    </div>
+                </div>
+                
+                <!-- Coluna de Cards (Missão e Visão) -->
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="info-card">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-blue-dark text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; font-size: 1.5rem;">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <h3 class="m-0 fs-4">Nossa Missão</h3>
+                        </div>
+                        <p class="text-muted m-0">Promover o desenvolvimento e qualidade dos serviços na área de saúde e assistência social, focando na excelência através da modernização e tecnologia no âmbito público e privado.</p>
+                    </div>
+
+                    <div class="info-card vision mt-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-warning text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; font-size: 1.5rem;">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <h3 class="m-0 fs-4">Nossa Visão</h3>
+                        </div>
+                        <p class="text-muted m-0">Ser uma entidade reconhecida por pautar sua atuação baseada em princípios éticos, conduzindo a defesa dos interesses econômicos e sociais através de um modelo de gestão humana e moderna.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Números -->
+    <section class="numbers-section">
+        <div class="container position-relative z-1">
+            <div class="row text-center mb-5">
+                <div class="col-12">
+                    <h2 class="text-white">Impacto que gera resultados</h2>
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="number-box">
+                        <div class="number-value">+257 mil</div>
+                        <div class="number-label">Procedimentos realizados</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="number-box">
+                        <div class="number-value text-blue-light">40</div>
+                        <div class="number-label">Especialidades atendidas</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="number-box">
+                        <div class="number-value text-coral">+91 mil</div>
+                        <div class="number-label">Atendimentos realizados</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="servicos" class="services-section">
+        <div class="container">
+            <div class="text-center mb-5 pb-3">
+                <span class="about-badge mb-2">Áreas de Atuação</span>
+                <h2 class="fs-1">Nossos Serviços</h2>
+            </div>
+            
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="service-card">
+                        <div class="icon-wrapper"><i class="fas fa-tint"></i></div>
+                        <h3 class="service-text">Gestão centro de hemodiálise</h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-card">
+                        <div class="icon-wrapper"><i class="fas fa-user-md"></i></div>
+                        <h3 class="service-text">Gestão de profissionais de saúde</h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-card">
+                        <div class="icon-wrapper"><i class="fas fa-hospital-alt"></i></div>
+                        <h3 class="service-text">Gestão de Pronto Atendimento</h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-card">
+                        <div class="icon-wrapper"><i class="fas fa-clinic-medical"></i></div>
+                        <h3 class="service-text">Gestão hospitalar</h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-card">
+                        <div class="icon-wrapper"><i class="fas fa-ambulance"></i></div>
+                        <h3 class="service-text">Serviço de unidade móvel</h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-card">
+                        <div class="icon-wrapper"><i class="fas fa-bed"></i></div>
+                        <h3 class="service-text">Serviços de hemodiálise beira-leito</h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-card">
+                        <div class="icon-wrapper"><i class="fas fa-laptop-medical"></i></div>
+                        <h3 class="service-text">Sistema de prontuário eletrônico</h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-card">
+                        <div class="icon-wrapper"><i class="fas fa-network-wired"></i></div>
+                        <h3 class="service-text">Sistemas Integrados</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Novidades -->
+    <section class="news-section">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-end mb-5">
+                <div>
+                    <h2 class="fs-1 m-0">Acontece no Instituto</h2>
+                    <p class="text-muted mt-2 mb-0">Acompanhe nossas últimas ações, campanhas e editais.</p>
+                </div>
+                <div class="d-none d-md-block">
+                    <a href="#" class="btn btn-outline-blue">Ver todas as notícias</a>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Novidade 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="news-card">
+                        <div class="news-img-wrapper">
+                            <span class="news-category">Notícia</span>
+                            <img src="images/news1.jpeg" alt="Feira de Saúde">
+                        </div>
+                        <div class="news-body">
+                            <h3 class="news-title">Feira de Saúde Histórica com Foco em Especialidades</h3>
+                            <p class="news-text">Entre os dias 21 e 25 de julho, o município viveu uma intensa jornada de atendimentos focada no bem-estar comunitário.</p>
+                            <a href="#" class="btn-link-custom">Ler matéria completa <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Novidade 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="news-card">
+                        <div class="news-img-wrapper">
+                            <span class="news-category">Campanha</span>
+                            <img src="images/news2.jpeg" alt="Setembro Amarelo">
+                        </div>
+                        <div class="news-body">
+                            <h3 class="news-title">Setembro Amarelo: Juntos Pela Preservação da Vida</h3>
+                            <p class="news-text">Iniciamos as rodas de conversa e atendimentos psicológicos gratuitos sobre a importância da saúde mental.</p>
+                            <a href="#" class="btn-link-custom">Ler matéria completa <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Novidade 3 (Edital) -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="news-card bg-light">
+                        <div class="news-img-wrapper bg-blue-dark d-flex align-items-center justify-content-center">
+                            <span class="news-category edital">Edital</span>
+                            <i class="fas fa-file-contract text-yellow" style="font-size: 5rem;"></i>
+                        </div>
+                        <div class="news-body">
+                            <h3 class="news-title">EDITAL Nº 001/2024 - Processo Seletivo</h3>
+                            <p class="news-text">Aberto o Processo Seletivo Simplificado para contratação de profissionais da área técnica e administrativa.</p>
+                            <a href="#" class="btn-link-custom text-coral">Baixar Edital <i class="fas fa-download"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="d-block d-md-none text-center mt-4">
+                <a href="#" class="btn btn-outline-blue w-100">Ver todas as notícias</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Info -->
+                <div class="col-lg-4 pe-lg-5">
+                    <div class="footer-logo mb-2">
+                        A<span class="c">c</span><span class="o">o</span>l<span class="h">h</span>er
+                    </div>
+                    <p class="text-white mb-4 fw-light" style="letter-spacing: 1px; font-size: 0.8rem;">INSTITUTO H. DOBAL</p>
+                    <p class="mb-4">Entidade sem fins lucrativos comprometida com a saúde, acolhimento e desenvolvimento da sociedade através da excelência em gestão médica.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+
+                <!-- Links Rápidos -->
+                <div class="col-lg-2 col-md-4">
+                    <h4 class="footer-title">Institucional</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Quem Somos</a></li>
+                        <li><a href="#">Nossa Diretoria</a></li>
+                        <li><a href="#">Transparência</a></li>
+                        <li><a href="#">Ouvidoria</a></li>
+                        <li><a href="#">Trabalhe Conosco</a></li>
+                    </ul>
+                </div>
+
+                <!-- Serviços -->
+                <div class="col-lg-3 col-md-4">
+                    <h4 class="footer-title">Áreas de Atuação</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Gestão Hospitalar</a></li>
+                        <li><a href="#">Centro de Hemodiálise</a></li>
+                        <li><a href="#">Pronto Atendimento</a></li>
+                        <li><a href="#">Unidades Móveis</a></li>
+                        <li><a href="#">Sistemas Integrados</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contato -->
+                <div class="col-lg-3 col-md-4">
+                    <h4 class="footer-title">Fale Conosco</h4>
+                    <ul class="footer-links">
+                        <li class="d-flex align-items-start mb-3">
+                            <i class="fas fa-map-marker-alt mt-1 me-3 text-coral"></i>
+                            <span>Sede na cidade de Teresina, Piauí - Brasil.</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="fas fa-phone-alt me-3 text-coral"></i>
+                            <a href="tel:+558600000000">(86) 0000-0000</a>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <i class="fas fa-envelope me-3 text-coral"></i>
+                            <a href="mailto:contato@acolherhdobal.org.br">contato@acolher.org.br</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Direitos Reservados -->
+            <div class="footer-bottom mt-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-md-start mb-3 mb-md-0">
+                        &copy; 2024 Instituto Acolher H. Dobal. Todos os direitos reservados.
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <a href="#" class="text-white-50 text-decoration-none me-3">Política de Privacidade</a>
+                        <a href="#" class="text-white-50 text-decoration-none">Termos de Uso</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão WhatsApp -->
+    <a href="#" class="whatsapp-float" target="_blank" title="Fale conosco pelo WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
